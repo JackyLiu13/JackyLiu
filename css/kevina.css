@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Space Mono', monospace;
+}
+
+body{
+  background-color:#222831;
+  
+}
+
+.main{  
+	align-items: center;
+	justify-content: center;
+  padding-bottom: 4%;
+}
+.main .container .row{
+  display: flex;  
+	align-items: center;
+	justify-content: center;
+  padding-top: 7%;
+}
+
+h1{
+  color:#EEEEEE;
+}
+
+.navbar-nav{
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  
+}
+.col{
+  justify-content:center;
+}
+#clockdiv{  
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #616b69;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #464e4c;
+    display: inline-block;
+}
+smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}

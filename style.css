@@ -1,11 +1,11 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Space Mono', monospace;
 }
 
 body{
-  background-color:#222831;
+  background-color:#20252D;
   
 }
 
@@ -21,6 +21,10 @@ body{
   padding-top: 7%;
 }
 
+.navbar{
+  background-color: #111419;
+}
+
 h1{
   color:#EEEEEE;
 }
@@ -29,15 +33,6 @@ h1{
   height: auto;
 }
 
-
-/* .home-img  img{
-transition: 1s ease;
-}
-
-.home-img  img:hover {
--webkit-filter: blur(5px);
-transition: 1s ease;
-} */
 
 .home{
   position:relative;
@@ -94,5 +89,52 @@ transition: 1s ease;
   margin-top: 0.25em;
 }
 
+.navbar-nav{
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  
+}
 
 
+
+#clockdiv{  
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #2A323D;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #2A323D;
+    display: inline-block;
+}
+smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+#gradhead{
+  margin-top:100px;
+}
+
+.grad{
+  margin-bottom: 200px;
+}
+
+footer p{
+  color:white;
+}
+footer{
+  background-color: #111419;
+  margin-top:40px;
+  padding:20px;
+  text-align: center;
+}
