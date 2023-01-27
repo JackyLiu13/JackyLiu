@@ -42,8 +42,11 @@ h1{
 }
 
 .home__img{
-  display:block;
   width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
 }
 
 .home__overlay{
@@ -60,6 +63,8 @@ h1{
   justify-content:center;
   opacity:0;
   transition: opacity 0.25s;
+    place-items: center;
+    align-content: center;
 }
 
 .home__overlay--blur{
@@ -109,7 +114,8 @@ h1{
     padding: 10px;
     border-radius: 3px;
     background: #2A323D;
-    display: inline-block;
+    display: inline-block;  
+      margin-top: 10px;
 }
 #clockdiv div > span{
     padding: 15px;
@@ -137,4 +143,17 @@ footer{
   margin-top:40px;
   padding:20px;
   text-align: center;
+}
+
+.hidden{
+  opacity: 0;
+  filter:blur(5px);
+  transform: translate(-100%);
+  transition: all 1.66s;
+  
+}
+.show{
+  opacity: 1;
+  filter:blur(0);
+  transform:translateX(0);
 }
